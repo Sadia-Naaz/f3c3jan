@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.table-container{
+    height: 100vh;
+    width: 100vw;
+}
+body{
+    background-color:black;
+}
+.table-UI{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.rows{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    margin: 1rem;
+    align-items: center;
+    background-color: black;
+    color: white;
+
+}
+.img{
+    height:20vh;
+    width: 20vw;;
+}
+.search-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0.2rem;
+}
+.search-input{
+    height: 2rem;
+    width: 50%;
+}
+.search-btn,.sort-btn{
+    height: 2rem;
+    width: 1.8rem;
+    border: none;
+    border-radius: 2px;
+    background-color: silver;
+}
